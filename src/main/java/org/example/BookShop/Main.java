@@ -40,7 +40,11 @@ public class Main {
 
         //SPECIFIC METHODS
 
+        //Add a new writer
         bookShop.addWriter(new Writer("King", ExperienceLevel.HIGH, Publication.W1));
+
+        //Return writers list
+        System.out.println(bookShop.getWriters());
 
 
 
