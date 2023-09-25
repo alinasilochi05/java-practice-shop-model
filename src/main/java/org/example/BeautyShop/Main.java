@@ -2,6 +2,7 @@ package org.example.BeautyShop;
 import org.example.ShopBase.Client;
 import org.example.ShopBase.Order;
 import org.example.ShopBase.Product;
+import org.example.libs.City;
 
 
 public class Main {
@@ -36,7 +37,13 @@ public class Main {
         //Return the stock list
         System.out.println(beautyShop.getStock());
 
+        //SPECIFIC METHODS
 
+        //Add a new event
+        beautyShop.addNewEvent(new Event("Rimmel Summer Edition", 10000, City.ORADEA, "Mara"));
+
+        //Return event lists
+        System.out.println(beautyShop.getEvents());
 
     }
 

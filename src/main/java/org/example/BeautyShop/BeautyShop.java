@@ -13,7 +13,7 @@ public class BeautyShop extends ShopBase {
         super();
     }
 
-    public void createNewEvent(Event event){
+    public void addNewEvent(Event event){
         events.add(event);
     }
 
